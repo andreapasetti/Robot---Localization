@@ -3,7 +3,7 @@
 With the adaptive monte carlo localization the robot can localize in the environment. A first guess of particles representing possible robot positions is generated. These particles will appear to be quite scattered. When the robot starts to move the particles will converge to the robot position. The project uses amcl package of ROS. The robot model is equipped with hokuyo lidar as rangefinder. Rviz is used to get the lidar measurements. Additionally the robot can be moved using teleop twist keyboard and particle convergence can be seen.
 
 ## Installation
-- Initaialize catkin workspace
+- Initialize catkin workspace
 - Clone the repository in your catkin "src" folder 
 
 ### Open terminal 1
